@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     let superq = ["What is Spirderman's name?","Who plays Tony Stark in Marvel's Iron Man film series?"]
     let schoices = [["Timmy Turner","Peter Parker","Clark Kent","Tony Stark"],["George Clooney","Tim Duncan","Kanye West","Robert Downey Jr"]]
-    let superansw = ["Peter Parker","Tony Stark"]
+    let superansw = ["Peter Parker","Robert Downey Jr"]
     
     let sciq = ["What is the most common element on the planet?","What is the chemical formula for water?"]
     let scichoices = [["Gold","Silver","Hydrogen","Mercury"],["O2","NaCl","HCl","H2O"]]
