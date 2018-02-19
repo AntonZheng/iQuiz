@@ -18,6 +18,7 @@
 		240E3D9B2039DB880066CE03 /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9A2039DB880066CE03 /* math.png */; };
 		240E3D9D2039DC4B0066CE03 /* super.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9C2039DC4B0066CE03 /* super.png */; };
 		240E3D9F2039DC8B0066CE03 /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9E2039DC8B0066CE03 /* science.png */; };
+		24C5965F203A654D000A4D74 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5965E203A654D000A4D74 /* QuestionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		240E3D9A2039DB880066CE03 /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
 		240E3D9C2039DC4B0066CE03 /* super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super.png; sourceTree = "<group>"; };
 		240E3D9E2039DC8B0066CE03 /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
+		24C5965E203A654D000A4D74 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				240E3D9420351F690066CE03 /* AppData.swift */,
 				240E3D682035187A0066CE03 /* ViewController.swift */,
 				240E3D6A2035187A0066CE03 /* Main.storyboard */,
+				24C5965E203A654D000A4D74 /* QuestionController.swift */,
 				240E3D6D2035187A0066CE03 /* Assets.xcassets */,
 				240E3D6F2035187A0066CE03 /* LaunchScreen.storyboard */,
 				240E3D722035187A0066CE03 /* Info.plist */,
@@ -277,6 +280,7 @@
 				240E3D692035187A0066CE03 /* ViewController.swift in Sources */,
 				240E3D672035187A0066CE03 /* AppDelegate.swift in Sources */,
 				240E3D9520351F690066CE03 /* AppData.swift in Sources */,
+				24C5965F203A654D000A4D74 /* QuestionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
