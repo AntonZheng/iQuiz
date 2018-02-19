@@ -14,6 +14,10 @@
 		240E3D712035187A0066CE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D6F2035187A0066CE03 /* LaunchScreen.storyboard */; };
 		240E3D7C2035187A0066CE03 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3D7B2035187A0066CE03 /* iQuizTests.swift */; };
 		240E3D872035187A0066CE03 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3D862035187A0066CE03 /* iQuizUITests.swift */; };
+		240E3D9520351F690066CE03 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E3D9420351F690066CE03 /* AppData.swift */; };
+		240E3D9B2039DB880066CE03 /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9A2039DB880066CE03 /* math.png */; };
+		240E3D9D2039DC4B0066CE03 /* super.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9C2039DC4B0066CE03 /* super.png */; };
+		240E3D9F2039DC8B0066CE03 /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9E2039DC8B0066CE03 /* science.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		240E3D822035187A0066CE03 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240E3D862035187A0066CE03 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		240E3D882035187A0066CE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240E3D9420351F690066CE03 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		240E3D9A2039DB880066CE03 /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
+		240E3D9C2039DC4B0066CE03 /* super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super.png; sourceTree = "<group>"; };
+		240E3D9E2039DC8B0066CE03 /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,11 @@
 		240E3D652035187A0066CE03 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				240E3D9A2039DB880066CE03 /* math.png */,
+				240E3D9C2039DC4B0066CE03 /* super.png */,
+				240E3D9E2039DC8B0066CE03 /* science.png */,
 				240E3D662035187A0066CE03 /* AppDelegate.swift */,
+				240E3D9420351F690066CE03 /* AppData.swift */,
 				240E3D682035187A0066CE03 /* ViewController.swift */,
 				240E3D6A2035187A0066CE03 /* Main.storyboard */,
 				240E3D6D2035187A0066CE03 /* Assets.xcassets */,
@@ -233,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				240E3D712035187A0066CE03 /* LaunchScreen.storyboard in Resources */,
+				240E3D9D2039DC4B0066CE03 /* super.png in Resources */,
+				240E3D9B2039DB880066CE03 /* math.png in Resources */,
 				240E3D6E2035187A0066CE03 /* Assets.xcassets in Resources */,
+				240E3D9F2039DC8B0066CE03 /* science.png in Resources */,
 				240E3D6C2035187A0066CE03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 			files = (
 				240E3D692035187A0066CE03 /* ViewController.swift in Sources */,
 				240E3D672035187A0066CE03 /* AppDelegate.swift in Sources */,
+				240E3D9520351F690066CE03 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
