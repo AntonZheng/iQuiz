@@ -10,9 +10,10 @@ import UIKit
 
 class QuestionController: UIViewController {
     var num : Int?
-    var questions:[String]?
-    var ans:[String] = [""]
-    var choices:[[String]]?
+    var questions = [String]()
+    var ans:[String] = []
+    var answers = [Int]()
+    var choices = [[String]]()
     var correct: Int = 0
     var index:Int = 0
     var choice:String = ""
@@ -31,18 +32,19 @@ class QuestionController: UIViewController {
     
     @IBAction func choose(_ sender: Any) {
         enableb()
-        choice = choices![index][(sender as AnyObject).tag]
+        choice = choices[index][(sender as AnyObject).tag]
         if((sender as AnyObject).tag == 0) {
-            b1.backgroundColor = UIColor.red
+            b1.backgroundColor = UIColor.orange
         } else if((sender as AnyObject).tag == 1) {
-            b2.backgroundColor = UIColor.red
+            b2.backgroundColor = UIColor.orange
         } else if((sender as AnyObject).tag == 2) {
-            b3.backgroundColor = UIColor.red
+            b3.backgroundColor = UIColor.orange
         } else if((sender as AnyObject).tag == 3) {
-            b4.backgroundColor = UIColor.red
+            b4.backgroundColor = UIColor.orange
         }
         print(choice)
-        print(ans[index])
+        // needs the -1 because index starts at 0
+        print(choices[index][answers[index] - 1])
         chosen = true
     }
     
@@ -58,11 +60,11 @@ class QuestionController: UIViewController {
                 canswer.text = ""
             }
         } else if(chosen) {
-            if(choice == ans[index]) {
-                canswer.text = "Correct! Correct answer: " + ans[index]
+            if(choice == choices[index][answers[index] - 1]) {
+                canswer.text = "Correct! Correct answer: " + choice
                 correct+=1
             } else {
-                canswer.text = "Incorrect! Correct answer: " + ans[index]
+                canswer.text = "Incorrect! Correct answer: " + choices[index][answers[index] - 1]
             }
             disableb()
             index+=1
@@ -85,7 +87,7 @@ class QuestionController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        num = questions?.count
+        num = questions.count
         canswer.text = ""
         loadQ()
         // Do any additional setup after loading the view.
@@ -114,11 +116,11 @@ class QuestionController: UIViewController {
     }
     
     public func loadQ() {
-        question.text = questions?[index]
-        b1.setTitle(choices![index][0], for: .normal)
-        b2.setTitle(choices![index][1], for: .normal)
-        b3.setTitle(choices![index][2], for: .normal)
-        b4.setTitle(choices![index][3], for: .normal)
+        question.text = questions[index]
+        b1.setTitle(choices[index][0], for: .normal)
+        b2.setTitle(choices[index][1], for: .normal)
+        b3.setTitle(choices[index][2], for: .normal)
+        b4.setTitle(choices[index][3], for: .normal)
     }
 
     override func didReceiveMemoryWarning() {

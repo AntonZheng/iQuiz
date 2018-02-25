@@ -18,6 +18,8 @@
 		240E3D9B2039DB880066CE03 /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9A2039DB880066CE03 /* math.png */; };
 		240E3D9D2039DC4B0066CE03 /* super.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9C2039DC4B0066CE03 /* super.png */; };
 		240E3D9F2039DC8B0066CE03 /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 240E3D9E2039DC8B0066CE03 /* science.png */; };
+		24A8200820421D58001A929B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A8200720421D58001A929B /* Reachability.swift */; };
+		24A8200E20423729001A929B /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A8200D20423729001A929B /* SetViewController.swift */; };
 		24C5965F203A654D000A4D74 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5965E203A654D000A4D74 /* QuestionController.swift */; };
 		24C59661203AC14D000A4D74 /* AnsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C59660203AC14D000A4D74 /* AnsController.swift */; };
 		24C59663203E67D2000A4D74 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 24C59662203E67D2000A4D74 /* questions.json */; };
@@ -58,6 +60,8 @@
 		240E3D9A2039DB880066CE03 /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
 		240E3D9C2039DC4B0066CE03 /* super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = super.png; sourceTree = "<group>"; };
 		240E3D9E2039DC8B0066CE03 /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
+		24A8200720421D58001A929B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		24A8200D20423729001A929B /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 		24C5965E203A654D000A4D74 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 		24C59660203AC14D000A4D74 /* AnsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsController.swift; sourceTree = "<group>"; };
 		24C59662203E67D2000A4D74 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 				240E3D9E2039DC8B0066CE03 /* science.png */,
 				240E3D662035187A0066CE03 /* AppDelegate.swift */,
 				240E3D9420351F690066CE03 /* AppData.swift */,
+				24A8200D20423729001A929B /* SetViewController.swift */,
 				240E3D682035187A0066CE03 /* ViewController.swift */,
+				24A8200720421D58001A929B /* Reachability.swift */,
 				240E3D6A2035187A0066CE03 /* Main.storyboard */,
 				24C59660203AC14D000A4D74 /* AnsController.swift */,
 				24C5965E203A654D000A4D74 /* QuestionController.swift */,
@@ -286,7 +292,9 @@
 			files = (
 				240E3D692035187A0066CE03 /* ViewController.swift in Sources */,
 				24C59661203AC14D000A4D74 /* AnsController.swift in Sources */,
+				24A8200820421D58001A929B /* Reachability.swift in Sources */,
 				240E3D672035187A0066CE03 /* AppDelegate.swift in Sources */,
+				24A8200E20423729001A929B /* SetViewController.swift in Sources */,
 				240E3D9520351F690066CE03 /* AppData.swift in Sources */,
 				24C5965F203A654D000A4D74 /* QuestionController.swift in Sources */,
 			);
