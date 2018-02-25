@@ -82,13 +82,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                         }
                     } catch {
                         print("Error")
-                        let jAlert: UIAlertController = UIAlertController(title: "JSON Error", message: "Error reading JSON.", preferredStyle: .alert)
+                        self.loadLocal()
+                        let jAlert: UIAlertController = UIAlertController(title: "JSON Error", message: "Error reading JSON. Loading local file.", preferredStyle: .alert)
                         let cancel = UIAlertAction(title: "ok", style: .cancel)
                         jAlert.addAction(cancel)
                         self.present(jAlert, animated: true, completion: nil)
                     }
                 } else {
-                    let jAlert: UIAlertController = UIAlertController(title: "JSON Download Error", message: "Error downloading JSON.", preferredStyle: .alert)
+                    self.loadLocal()
+                    let jAlert: UIAlertController = UIAlertController(title: "JSON Download Error", message: "Error downloading JSON. Loading local file.", preferredStyle: .alert)
                     let cancel = UIAlertAction(title: "ok", style: .cancel)
                     jAlert.addAction(cancel)
                     self.present(jAlert, animated: true, completion: nil)
